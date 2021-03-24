@@ -30,6 +30,7 @@ with the `report' document style}}{}
     \usepackage[T1]{fontenc}
     \usepackage{lmodern}
     
+    \setmainfont{Times New Roman}
     
     \usepackage[backend=bibtex,style=trad-plain, sorting=nty,firstinits=true]{biblatex}
     \addbibresource{biblio.bib}
@@ -76,8 +77,9 @@ with the `report' document style}}{}
 \RequirePackage{fancyhdr}
 \RequirePackage{ifthen}
 \RequirePackage{ifpdf}
-\RequirePackage{newtxmath}
-\RequirePackage{newtxtext}
+%\RequirePackage{newtxmath} % pdflatex
+%\RequirePackage{newtxtext} % pdflatex
+\RequirePackage{fontspec} % xelatex
 
 \setstretch{1.5}
 
