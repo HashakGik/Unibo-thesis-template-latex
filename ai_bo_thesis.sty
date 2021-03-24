@@ -1,0 +1,243 @@
+% Thesis style of the degree programme in Artificial Intelligence
+% Alma Mater Studiorum
+
+% Adapted from Stanford University latex thesis style file.
+
+%%%%%
+%%%%%   PRELIM
+%%%%%
+
+\typeout{Document Style Option `ai_bo_thesis' for latex2e <$Date: 03/24/2021 $>.}
+
+\@ifundefined{chapter}{\@latexerr{The `ai_bo_thesis' option should be used
+with the `report' document style}}{}
+
+
+%%%%%
+%%%%%   DOCUMENTATION
+%%%%%
+
+\long\def\comment#1{}
+\comment{
+
+  Example usage:
+  
+    \documentclass[a4paper,singleside,12pt]{report} % Uncomment this for single side pdf.
+    %\documentclass[a4paper,twoside,12pt]{report} % Uncomment this for printing.
+    
+    \usepackage{ai_bo_thesis}
+    \usepackage[english]{babel}
+    \usepackage[T1]{fontenc}
+    \usepackage{lmodern}
+    
+    
+    \usepackage[backend=bibtex,style=trad-plain, sorting=nty,firstinits=true]{biblatex}
+    \addbibresource{biblio.bib}
+    
+    \begin{document}
+    	
+    	\title{Tensor-prolog: a logic programming framework for training neural networks}
+    	\topic{Applied Logic Programming}
+    	\candidate{John Smith}
+    	\supervisor{Prof.~Mario Rossi}
+    	%	\cosupervisor{& John Doe, PhD.} % One co-supervisor.
+    	%	\cosupervisors{& Dott.~Ing.~Luigi Bianchi\\& Dott~Avv.~Lucia Rossi} % More than one co-supervisor.
+    	\academicyear{2020-2021}
+    	\session{1st}
+    	
+    	\frontispiece 
+    	\dedication{dedicated(X) :- friend(X).}
+    	\toc
+    	\figstoc
+    	\tablestoc
+    	\begintext
+    	
+    	\chapter{Introduction}
+    	YOUR THESIS HERE~\cite{wielemaker2012swi,swi}
+    	
+    	\appendix
+    	
+    	\printbibliography[heading=bibintoc] % biblatex
+    	
+    	
+    	\acknowledgements
+    	I'm very grateful to the inventor of the Prolog language, without whom this thesis couldn't exist. I'd also like to acknowledge my advisor Prof. Mario Rossi by tail-recursively acknowledging my advisor.
+    	
+    \end{document}
+    
+
+}
+
+
+% include doublespace.sty for some of the stuff below
+
+\RequirePackage{setspace}
+\RequirePackage{graphicx}
+\RequirePackage{fancyhdr}
+\RequirePackage{ifthen}
+\RequirePackage{ifpdf}
+\RequirePackage{newtxmath}
+\RequirePackage{newtxtext}
+
+\setstretch{1.5}
+
+  \if@twoside
+     \setlength\oddsidemargin   {25mm}
+     \setlength\evensidemargin  {0mm}
+     \setlength\marginparwidth  {10mm}
+  \else
+     \setlength\oddsidemargin   {15mm}
+     \setlength\evensidemargin  {15mm}
+     \setlength\marginparwidth  {10mm}
+  \fi
+
+\marginparsep 0mm
+\hoffset 0mm
+%\oddsidemargin 0.5in \evensidemargin 0in
+%\marginparwidth 40pt 
+
+%\topmargin 0pt \headsep .5in
+\textheight 9in 
+
+\textwidth 130mm
+
+\brokenpenalty=10000
+
+
+\def\title#1{\gdef\@title{#1}}
+\def\candidate#1{\gdef\@candidate{#1}}
+\def\topic#1{\gdef\@topic{#1}}
+\def\supervisor#1{\gdef\@supervisor{#1}}
+\def\cosupervisors#1{\gdef\@cosupervisors{CO-SUPERVISORS\\#1}}
+\def\cosupervisor#1{\gdef\@cosupervisor{CO-SUPERVISOR\\#1}}
+\def\academicyear#1{\gdef\@academicyear{#1}}
+\def\session#1{\gdef\@session{#1}}
+
+
+\def\@cosupervisors{*}
+\def\@cosupervisor{*}
+
+\def\titlep{%
+        \thispagestyle{empty}%
+        \null
+        \vspace{-10mm}
+    \begin{minipage}{120mm}%
+    \begin{tabular}{c}%
+    \large{\textbf{ALMA MATER STUDIORUM}}\\[1mm]
+    \large{\textbf{UNIVERSIT\`A DI BOLOGNA}}\\[3mm]%
+    \rule{12.0cm}{0.5pt}\\[7mm]%
+    \large{\textbf{DEPARTMENT OF COMPUTER SCIENCE}}\\[0.5mm]
+    \large{\textbf{AND ENGINEERING}}\\[3mm]%
+    
+    \normalsize{ARTIFICIAL INTELLIGENCE}\\[3mm]%
+    \normalsize{\textbf{MASTER THESIS}}\\[0.5mm]%
+    \normalsize{in}\\
+    \normalsize{\@topic}
+    \end{tabular}%
+    \end{minipage}%
+    \vfill%
+        \begin{center}%
+                \textbf{\Large\uppercase\expandafter{\@title}}%
+        \end{center}%
+        \vfill%
+    \begin{minipage}[t]{\textwidth}%
+    \begin{tabular}{ll}%
+    CANDIDATE \hspace{30mm} & SUPERVISOR \\%
+    \@candidate & \@supervisor\\[5mm]%
+    \if*\@cosupervisors 
+        \if*\@cosupervisor & \\[27mm] 
+        \else & \@cosupervisor \\[5mm] \fi 
+    \else & \@cosupervisors \\ \fi
+    \end{tabular} \\[5mm]%
+    \centerline{Academic year \@academicyear}\\ %
+    \centerline{Session \@session}\\ %
+    \end{minipage}%
+        \null
+    \newpage}
+
+\def\dedicationpage{%
+        \null\vfill
+        \begin{flushright}%
+                \large%
+                \@dedication
+        \end{flushright}
+        \vfill\null\vfill\newpage}
+
+\def\frontispiece{
+        \pagenumbering{roman}
+        \pagestyle{empty}
+        \titlep
+        \newpage
+        \cleardoublepage
+        }
+
+\def\dedication#1{   
+        \pagestyle{plain}
+        \null\vfill
+        \begin{flushright}%
+                \large%
+                #1
+        \end{flushright}
+        \vfill\null\vfill\newpage
+        \cleardoublepage
+        }
+
+\def\toc{
+        \pagestyle{plain}
+        \tableofcontents
+        \newpage
+        }
+        
+\def\figstoc{
+        \pagestyle{plain}
+        \listoffigures
+        \newpage
+        }
+        
+\def\tablestoc{
+        \pagestyle{plain}
+        \listoftables
+        \newpage
+        }
+        
+
+\def\begintext{
+    \cleardoublepage
+        \pagenumbering{arabic}
+    \pagestyle{fancy}
+    \renewcommand{\chaptermark}[1]{\markboth{##1}{##1}} % remember chapter title
+    \renewcommand{\sectionmark}[1]{\markright{\thesection\ ##1 }}
+                                                 % section number and title 
+    %\lhead[\fancyplain{}{\bf\thepage}]{\fancyplain{}{\bf\miomark}}
+    \lhead[\fancyplain{}{\bf\thepage}]{\fancyplain{}{\bf\mymark}}
+    \rhead[\fancyplain{}{\bf\mymark}]{\fancyplain{}{\bf\thepage}}
+    \def\mymark{\rightmark}
+    \def\myminit{\thesection~}
+    \cfoot{}
+    \fancypagestyle{plain}{% 
+    \fancyhead{} %get rid of the headers on plain pages 
+    \renewcommand{\headrulewidth}{0pt}} % and the line  
+}
+
+\def\acknowledgements{%
+    \newpage 
+    \cleardoublepage
+    \pagestyle{plain}
+    \chapter*{Acknowledgements}
+    \addcontentsline{toc}{chapter}{Acknowledgements}
+    }
+
+
+% Redefine \thebibliography to go to a new page and put an entry in the
+% table of contents
+\let\@ldthebibliography\thebibliography
+\renewcommand{\thebibliography}[1]{\newpage
+                \@ldthebibliography{#1}%
+\addcontentsline{toc}{chapter}{Bibliography}}
+
+
+
+
+
+% Start out normal
+\pagestyle{headings}

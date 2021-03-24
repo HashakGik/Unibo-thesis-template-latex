@@ -1,0 +1,42 @@
+\documentclass[a4paper,singleside,12pt]{report} % Uncomment this for single side pdf.
+%\documentclass[a4paper,twoside,12pt]{report} % Uncomment this for printing.
+
+\usepackage{ai_bo_thesis}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+
+\usepackage[backend=bibtex,style=trad-plain, sorting=nty,firstinits=true]{biblatex}
+\addbibresource{biblio.bib}
+
+\begin{document}
+	
+	\title{Tensor-prolog: a logic programming framework for training neural networks}
+	\topic{Applied Logic Programming}
+	\candidate{John Smith}
+	\supervisor{Prof.~Mario Rossi}
+%	\cosupervisor{& John Doe, PhD.} % One co-supervisor.
+%	\cosupervisors{& Dott.~Ing.~Luigi Bianchi\\& Dott~Avv.~Lucia Rossi} % More than one co-supervisor.
+	\academicyear{2020-2021}
+	\session{1st}
+	
+	\frontispiece 
+	\dedication{dedicated(X) :- friend(X).}
+	\toc
+	\figstoc
+	\tablestoc
+	\begintext
+	
+	\chapter{Introduction}
+	YOUR THESIS HERE~\cite{wielemaker2012swi,swi}
+	
+	\appendix
+	
+	\printbibliography[heading=bibintoc] % biblatex
+
+	
+	\acknowledgements
+		I'm very grateful to the inventor of the Prolog language, without whom this thesis couldn't exist. I'd also like to acknowledge my advisor Prof. Mario Rossi by tail-recursively acknowledging my advisor.
+		
+\end{document}
