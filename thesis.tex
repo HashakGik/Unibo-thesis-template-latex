@@ -68,18 +68,45 @@
 	introductory results and a functioning model for the mental rotation process.
 	\section{The Tangram}
 	As mentioned, cognitive-modelling specific literature regarding the tangram is extremely limited. Nonetheless, previous works in the field
-	of computer science and cognitive psychology can be seen as an interesting starting baseline for the modelling process.
-	Various computational approaches to the solution have been proposed: 
-    \chapter{Experimental scenario}
-    Where I describe the performed experiments
-    \chapter{Data Analysis and Hypothesis}
+	of computer science and cognitive psychology can be seen as an interesting starting baseline for the modelling process. 
+	\\Among the computational approaches, Deutsch and Hayes \cite{heuristic} originally suggested a heuristic solution based on extending the lines inside the silhouette and
+	matching the edges of the tans with the prolonged lines; while their \textit{direct-match} and \textit{2.5-3.5} rules might resemble what will
+	be later defined as \textit{perfect fit}, their fully geometrical algorithm, and especially the evaluations on the extendeded lines are unlikely 
+	to have cognitive plausibility.\\
+	During the advent of machine learning, Oflazer \cite{Oflazer1993SolvingTP} used a Boltzmann Machine, where each neuron represented a possible positioning of one piece, and was fed 
+	with excitatory input from the outline constraints and inhibitory input from the conflicting configurations. The main limit of the approach is that the authors only tackle \textit{grid tangrams}, 
+	where each corner of a placed tan must be coincident with a point in an equally spaced grid. This in turn largely limits the allowed rotations for the pieces and thus its applicability,
+	even at a knwoledge represenation level, when dealing with less constrained puzzles as the irrational length of edges would be impossible to tackle using the grid. \\
+
+
+    
+	
+	\chapter{Experimental scenario}
+    In collaboration with the Technical University of Berlin [shall I actually mention it?] an experiment was developed and performed in order to obtain the training and test sets.\\
+	Each participant was presented with a virtual implmentation of the tanrgam game, including 4 puzzles [cite figure]. After an inital explanation of the controls, each participant was required tackle
+	the solution of the puzzles, which were always shwon in the same order. There was no time limit, and at any moment the \textit{NEXT} button was available, so that the player could give up on the specific
+	tangram and move to the next one. It must be noted that while backtracking was possible during the solution of the single task, once the button was pressed the solution was submitted and no option to go back
+	was available.\\
+	Between each problem, the participants were asked to complete a NASA evaluation form, and at the end of the trial they provided a general feedback. \\
+	In addition to this, the screen recording and application logs, including data regarding times, piece action types (rotation, movement) and piece positioning were stored for the analysis. 
+	During the first trial set, 31 participants (17 males, 14 females) took part to the experiment; they all had an academic background, a large majority of them being from engineering or human factors studies. \\
+	These first players composed the training set.
+    
+	
+	\chapter{Data Analysis and Hypothesis}
     Where I qualitatively and quantitatively analyze the available data, provide figures and introduce
     the leading Hypothesis that the model will try to explain
-    \chapter{Model description}
+    
+	
+	\chapter{Model description}
     Where I provide a detailed description of the model and the modelling choices
-    \chapter{Results and discussion}
+    
+	
+	\chapter{Results and discussion}
     Where I compare the model to the expected data and try to discuss whether the hypothesis are funded
     and whether there are possible applications
+	
+	
 	\appendix
 	
 	\printbibliography[heading=bibintoc] % biblatex
