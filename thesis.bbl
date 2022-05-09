@@ -1,0 +1,222 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{heuristic}{article}{}
+      \name{author}{2}{}{%
+        {{hash=84eac7814d1ca8f34a6cacdf4ae0fd9c}{%
+           family={Deutsch},
+           familyi={D\bibinitperiod},
+           given={E.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f41879b668983ae00238447591f58e91}{%
+           family={Jr.},
+           familyi={J\bibinitperiod},
+           given={K.\bibnamedelimi C.\bibnamedelimi Hayes},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ae18f196ff9793140b0f9de0a1039da}
+      \strng{fullhash}{5ae18f196ff9793140b0f9de0a1039da}
+      \strng{bibnamehash}{5ae18f196ff9793140b0f9de0a1039da}
+      \strng{authorbibnamehash}{5ae18f196ff9793140b0f9de0a1039da}
+      \strng{authornamehash}{5ae18f196ff9793140b0f9de0a1039da}
+      \strng{authorfullhash}{5ae18f196ff9793140b0f9de0a1039da}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine Intelligence}
+      \field{title}{“A Heuristic Solution to the Tangram Puzzle”}
+      \field{volume}{7}
+      \field{year}{1972}
+    \endentry
+    \entry{GENTILE20221}{article}{}
+      \name{author}{2}{}{%
+        {{hash=79353013e1853dcb6a137ab54897d5bd}{%
+           family={Gentile},
+           familyi={G\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2fc7055876ddb7c63166bc05277bf7a2}{%
+           family={Lieto},
+           familyi={L\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c35fb9ce69cf6f714fab28c06e4bfcf}
+      \strng{fullhash}{8c35fb9ce69cf6f714fab28c06e4bfcf}
+      \strng{bibnamehash}{8c35fb9ce69cf6f714fab28c06e4bfcf}
+      \strng{authorbibnamehash}{8c35fb9ce69cf6f714fab28c06e4bfcf}
+      \strng{authornamehash}{8c35fb9ce69cf6f714fab28c06e4bfcf}
+      \strng{authorfullhash}{8c35fb9ce69cf6f714fab28c06e4bfcf}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1389-0417}
+      \field{journaltitle}{Cognitive Systems Research}
+      \field{title}{The role of mental rotation in TetrisTM gameplay: An ACT-R computational cognitive model}
+      \field{volume}{73}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cogsys.2021.12.005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1389041721000991
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1389041721000991
+      \endverb
+      \keyw{Cognitive architectures,ACT-R,Mental rotation,Tetris,Serious games design}
+    \endentry
+    \entry{Oflazer1993SolvingTP}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1c84a49bd092623c95a7b1ceda85be4f}{%
+           family={Oflazer},
+           familyi={O\bibinitperiod},
+           given={Kemal},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c84a49bd092623c95a7b1ceda85be4f}
+      \strng{fullhash}{1c84a49bd092623c95a7b1ceda85be4f}
+      \strng{bibnamehash}{1c84a49bd092623c95a7b1ceda85be4f}
+      \strng{authorbibnamehash}{1c84a49bd092623c95a7b1ceda85be4f}
+      \strng{authornamehash}{1c84a49bd092623c95a7b1ceda85be4f}
+      \strng{authorfullhash}{1c84a49bd092623c95a7b1ceda85be4f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Intelligent Systems}
+      \field{title}{Solving tangram puzzles: A connectionist approach}
+      \field{volume}{8}
+      \field{year}{1993}
+    \endentry
+    \entry{social-robot}{article}{}
+      \name{author}{7}{}{%
+        {{hash=a9b87154e9ed86efddc38813920d0368}{%
+           family={Rosenberg},
+           familyi={R\bibinitperiod},
+           given={Maor},
+           giveni={M\bibinitperiod}}}%
+        {{hash=83d008169eb36f3af62c69da9789343e}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hae\bibnamedelima Won},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=3bda3abe59a149f32b49c55c753ea952}{%
+           family={Rosenberg-Kima},
+           familyi={R\bibinithyphendelim K\bibinitperiod},
+           given={Rinat},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d0afa6074f905964575f8d21c68ba527}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Safinah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4a813607e0748751bc5201f3a0af74f2}{%
+           family={Ostrowski},
+           familyi={O\bibinitperiod},
+           given={Anastasia\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=3e669d3ed6039d251fbfbf2f27a2a1f5}{%
+           family={Breazeal},
+           familyi={B\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c2002115055d5dfdb43dc3f06081acf0}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={Goren},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{f4bf0c6984d5b44c6e6f95a2ca2b03e3}
+      \strng{fullhash}{f4bf0c6984d5b44c6e6f95a2ca2b03e3}
+      \strng{bibnamehash}{f4bf0c6984d5b44c6e6f95a2ca2b03e3}
+      \strng{authorbibnamehash}{f4bf0c6984d5b44c6e6f95a2ca2b03e3}
+      \strng{authornamehash}{f4bf0c6984d5b44c6e6f95a2ca2b03e3}
+      \strng{authorfullhash}{f4bf0c6984d5b44c6e6f95a2ca2b03e3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Artificial curiosity, based on developmental psychology concepts wherein an agent attempts to maximize its learning progress, has gained much attention in recent years. Similarly, social robots are slowly integrating into our daily lives, in schools, factories, and in our homes. In this contribution, we integrate recent advances in artificial curiosity and social robots into a single expressive cognitive architecture. It is composed of artificial curiosity and social expressivity modules and their unique link, i.e., the robot verbally and non-verbally communicates its internally estimated learning progress, or learnability, to its human companion. We implemented this architecture in an interaction where a fully autonomous robot took turns with a child trying to select and solve tangram puzzles on a tablet. During the curious robot’s turn, it selected its estimated most learnable tangram to play, communicated its selection to the child, and then attempted at solving it. We validated the implemented architecture and showed that the robot learned, estimated its learnability, and improved when its selection was based on its learnability estimation. Moreover, we ran a comparison study between curious and non-curious robots, and showed that the robot’s curiosity-based behavior influenced the child’s selections. Based on the artificial curiosity module of the robot, we have formulated an equation that estimates each child’s moment-by-moment curiosity based on their selections. This analysis revealed an overall significant decrease in estimated curiosity during the interaction. However, this drop in estimated curiosity was significantly larger with the non-curious robot, compared to the curious one. These results suggest that the new architecture is a promising new approach to integrate state-of-the-art curiosity-based algorithms to the growing field of social robots.}
+      \field{issn}{2160-6455}
+      \field{journaltitle}{ACM Trans. Interact. Intell. Syst.}
+      \field{number}{2}
+      \field{title}{Expressive Cognitive Architecture for a Curious Social Robot}
+      \field{volume}{11}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1145/3451531
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3451531
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3451531
+      \endverb
+    \endentry
+    \entry{shepard1971mental}{article}{}
+      \name{author}{2}{}{%
+        {{hash=033372af8888fbee8d7ede30968fa5fd}{%
+           family={Shepard},
+           familyi={S\bibinitperiod},
+           given={Roger\bibnamedelima N},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=04eb27c386cfc6649ee63ac9f07db2f1}{%
+           family={Metzler},
+           familyi={M\bibinitperiod},
+           given={Jacqueline},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{b1e92bfedb1f5710ccb3c9f8206c29f1}
+      \strng{fullhash}{b1e92bfedb1f5710ccb3c9f8206c29f1}
+      \strng{bibnamehash}{b1e92bfedb1f5710ccb3c9f8206c29f1}
+      \strng{authorbibnamehash}{b1e92bfedb1f5710ccb3c9f8206c29f1}
+      \strng{authornamehash}{b1e92bfedb1f5710ccb3c9f8206c29f1}
+      \strng{authorfullhash}{b1e92bfedb1f5710ccb3c9f8206c29f1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{3972}
+      \field{title}{Mental rotation of three-dimensional objects}
+      \field{volume}{171}
+      \field{year}{1971}
+      \field{pages}{701\bibrangedash 703}
+      \range{pages}{3}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
