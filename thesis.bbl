@@ -88,6 +88,41 @@
       \endverb
       \keyw{Cognitive architectures,ACT-R,Mental rotation,Tetris,Serious games design}
     \endentry
+    \entry{Hu2019EffectiveCO}{article}{}
+      \name{author}{3}{}{%
+        {{hash=893a5978a7dbd782dae23a6a0db65db5}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Zhishan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=29d89c03eb2678aab1158bcdb39be1ab}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Keng-Fong},
+           giveni={K\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=643f6dcf7b73024f29fce696708664c9}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Zhen},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{211dace60271f397d18c56d4a8e27c8a}
+      \strng{fullhash}{211dace60271f397d18c56d4a8e27c8a}
+      \strng{bibnamehash}{211dace60271f397d18c56d4a8e27c8a}
+      \strng{authorbibnamehash}{211dace60271f397d18c56d4a8e27c8a}
+      \strng{authornamehash}{211dace60271f397d18c56d4a8e27c8a}
+      \strng{authorfullhash}{211dace60271f397d18c56d4a8e27c8a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neuroscience}
+      \field{title}{Effective Connectivity of the Fronto-Parietal Network during the Tangram Task in a Natural Environment}
+      \field{volume}{422}
+      \field{year}{2019}
+      \field{pages}{202\bibrangedash 211}
+      \range{pages}{10}
+    \endentry
     \entry{Oflazer1993SolvingTP}{article}{}
       \name{author}{1}{}{%
         {{hash=1c84a49bd092623c95a7b1ceda85be4f}{%

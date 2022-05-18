@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'thesis.blg'
-[144] biber-MSWIN64:340> INFO - === 
-[193] Biber.pm:418> INFO - Reading 'thesis.bcf'
-[342] Biber.pm:972> INFO - Found 5 citekeys in bib section 0
-[361] Biber.pm:4383> INFO - Processing section 0
-[375] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[428] bibtex.pm:1713> INFO - LaTeX decoding ...
-[447] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
-[520] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[520] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[520] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[520] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[530] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[534] bbl.pm:757> INFO - Output to thesis.bbl
-[534] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[535] Biber.pm:132> INFO - WARNINGS: 1
+[154] biber-MSWIN64:340> INFO - === 
+[199] Biber.pm:418> INFO - Reading 'thesis.bcf'
+[346] Biber.pm:972> INFO - Found 6 citekeys in bib section 0
+[364] Biber.pm:4383> INFO - Processing section 0
+[380] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[431] bibtex.pm:1713> INFO - LaTeX decoding ...
+[453] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
+[531] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[531] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[531] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[532] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[543] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[548] bbl.pm:757> INFO - Output to thesis.bbl
+[548] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[549] Biber.pm:132> INFO - WARNINGS: 1
