@@ -2350,12 +2350,14 @@
     <bcf:citekey order="4">heuristic</bcf:citekey>
     <bcf:citekey order="5">Oflazer1993SolvingTP</bcf:citekey>
     <bcf:citekey order="6">Hu2019EffectiveCO</bcf:citekey>
-    <bcf:citekey order="7">social-robot</bcf:citekey>
-    <bcf:citekey order="8">GENTILE20221</bcf:citekey>
-    <bcf:citekey order="9">shepard1971mental</bcf:citekey>
-    <bcf:citekey order="10">heuristic</bcf:citekey>
-    <bcf:citekey order="11">Oflazer1993SolvingTP</bcf:citekey>
-    <bcf:citekey order="12">Hu2019EffectiveCO</bcf:citekey>
+    <bcf:citekey order="7">heuristic</bcf:citekey>
+    <bcf:citekey order="8">Hu2019EffectiveCO</bcf:citekey>
+    <bcf:citekey order="9">social-robot</bcf:citekey>
+    <bcf:citekey order="10">GENTILE20221</bcf:citekey>
+    <bcf:citekey order="11">shepard1971mental</bcf:citekey>
+    <bcf:citekey order="12">heuristic</bcf:citekey>
+    <bcf:citekey order="13">Oflazer1993SolvingTP</bcf:citekey>
+    <bcf:citekey order="14">Hu2019EffectiveCO</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

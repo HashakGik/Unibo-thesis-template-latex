@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.3.30)  18 MAY 2022 15:30
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.3.30)  20 MAY 2022 12:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -682,16 +682,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [7]
 Chapter 4.
-[8
 
-]
-Chapter 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--155
+Underfull \hbox (badness 10000) in paragraph at lines 150--160
 
  []
 
-[9
+[8
 
 ]
 
@@ -702,7 +698,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [10]
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--224
+
+ []
+
+[11
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
 File: pictures/extracted_no_intersect_1.png Graphic file (type bmp)
 <pictures/extracted_no_intersect_1.png>
 
@@ -714,29 +737,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[12]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 269--278
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -746,22 +747,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 278--282
-
- []
-
-
-Overfull \hbox (21.65404pt too wide) in paragraph at lines 282--289
-\TU/TimesNewRoman(0)/m/n/12 production \TU/TimesNewRoman(0)/b/n/12 fail-to-retr
-ieve\TU/TimesNewRoman(0)/m/n/12 , its purpose being to trigger the \TU/TimesNew
-Roman(0)/b/n/12 piece_backtrack
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--296
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -771,6 +756,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
+Underfull \hbox (badness 10000) in paragraph at lines 338--347
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -780,16 +769,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
+Underfull \hbox (badness 10000) in paragraph at lines 347--351
+
+ []
+
+
+Overfull \hbox (21.65404pt too wide) in paragraph at lines 351--358
+\TU/TimesNewRoman(0)/m/n/12 production \TU/TimesNewRoman(0)/b/n/12 fail-to-retr
+ieve\TU/TimesNewRoman(0)/m/n/12 , its purpose being to trigger the \TU/TimesNew
+Roman(0)/b/n/12 piece_backtrack
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--365
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
 Chapter 6.
-[17
+[19
 
 ]
 Chapter 7.
-[18
+[20
 
-] [19
+] [21
 
-] [20
+] [22
 
 
 ] (thesis.aux)
@@ -800,10 +823,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  12876 strings out of 410967
  287993 string characters out of 2823956
- 1075109 words of memory out of 3000000
+ 1077109 words of memory out of 3000000
  33464 multiletter control sequences out of 15000+600000
  483475 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,12n,91p,2066b,4879s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on thesis.pdf (26 pages).
+Output written on thesis.pdf (28 pages).

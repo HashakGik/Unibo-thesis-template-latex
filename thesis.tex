@@ -94,11 +94,12 @@
 	configurations. The main limit of the approach is that the authors only tackle \textit{grid
 	tangrams}, where each corner of a placed tan must be coincident with a point in an equally
 	spaced grid. This in turn largely limits the allowed rotations for the pieces and thus its
-	applicability, even at a knwoledge representation level, when dealing with less constrained
-	puzzles as the irrational length of edges would be impossible to tackle using the grid. \\
+	applicability, even at a knowledge representation level, when dealing with less constrained
+	puzzles as the irrational length of edges would be impossible torepresent with precision by using
+	the grid. \\
 	The work from Hu, Lam and Yuan \cite{Hu2019EffectiveCO} on neural activity during the tangram
 	task suggests a possible direction to take in order to reproduce human behaviour. The authors
-	monitored the fronto-paretal area during the puzzle solution, and propose that trial and error
+	monitored the fronto-paretal area of the brain during the puzzle solution, and propose that trial and error
 	strategies might be prevalent instead of inductive reasoning. In this case, the need for
 	forward reasoning mechanisms in the model might be reduced in favour of an insight based
 	approach. 
@@ -132,10 +133,78 @@
     
 	
 	\chapter{Data Analysis and Hypothesis}
-    Where I qualitatively and quantitatively analyze the available data, provide figures and
-    introduce the leading Hypothesis that the model will try to explain
     
 	
+	[very initial draft]
+   
+	\section*{Methods}
+	Watching videos\\
+	What is considered a step\\
+	Heatmap results \\
+	Individual sequence analysis \\ 
+	What is observed is that participants tend to reproduce "similar" sequences at the beginning and
+	at the end of the tasks. The order ususally is not strictly relevant, but common configurations
+	are present in the solutions of different players.
+
+	\section*{Landmarks}
+	The frequency of repeated patterns in the solution sequences hints at the presence of particular
+	features of the silhouette that are often noticed and exploited by the participants during the
+	task.\\
+	In order to model such observation, the concept of \textbf{landmark} was introduced, so defined:\\
+	\textit{A landmark is feature of the task silhouette that strongly hints at the possibility of
+	placement of a given tan}\\
+	The definition as it stands is still somehow general, nonetheless it allows for a clear
+	approach in the implementation of the agent: provide a specific definition of landmark, extract
+	whatever landmarks are available at the current state, act on one or more of such landmarks
+	according to hypotesized strategies.\\
+
+	\section*{Best fit}
+	A common and somewhat natural characteristic of most solution processes is the preference to
+	place tans along the edges of the silhouettes, seemingly by exploiting information about particular
+	corners or corner-edge sequences. Paricularly, in a similar fashion to the direct matching
+	suggested by \cite{heuristic}, moves that would allow an almost perfect match between the tan
+	and a sub-part of the silhouette (the chimney in tangram 2, the left sail in tangram 3, the
+	foot,arm or hat in tangram 4) are usually performed within the first 3 or 4 steps. It must be noted
+	that this is not strictly limited to clear and mandatory placements: in tangram 3, the sail can be
+	otherwise created by using other tans, and in tangram 4 the placement of the parallelogram in
+	the arm is not clearly hinted at the beginning. This suggests a somewhat relaxed and noisy interpretation
+	of such strategy, thus defined as \textit{best fit} instead of \textit{perfect} or
+	\textit{direct}. In any case, due to its conisistency in the data, the \textit{best fit} concept will be the main design choice for the
+	agent: landmarks will be defined as possibly imprecise placements of the tans, extracted via a pattern matching
+	detection on the edges of the silhouette. 
+
+	\section*{Combination issues and rotation resistance}
+	The approach based purely on the \textit{best fit} strategy seems be an acceptable hypothesis
+	when considering the initial steps, but by itself it fails to account for some of the difficulties
+	encountered by the participants: among these, of particular note is the tendency to miss the
+	possibility to combine two smaller triangle into a larger one [add picture]. Both in tangram 2
+	and tangram 4, the correct solution involves such combination, but quite consistently [stats to
+	be added] participants tend to first orient a single triangle with an to match the
+	larger one, instead of noticing the possibility of combination, see figure ... \\
+	More intersetingly, when backtracking or trying different strategies it might happen that such
+	move is repeated, even if already discarded; this seems to be in accordance to the hypothesis
+	from \cite{Hu2019EffectiveCO} that the solution is mainly performed via random search instead of
+	inductive reasoning.\\
+	In order to integrate such observations with the \textit{best fit} strategy, an additional
+	component is suggested: a certain placement is not only decided by how closely the interested
+	piece matches with the silhouette, but also by how strongly it draws the agent's attention.\\
+	The concept of \textit{landmark strength} is not too unusual and can find a direct
+	correspondence with the baseline activation of chuncks in ACT-R. The main concern is how to
+	define such strength: as research of tangram puzzle is relaitvely limited, few suggestions have
+	been made on what could best draw attention, [cite missing paper] suggests that there is a
+	preference on size of pieces, the observations mentioned above hint that $90^{\circ}$ angles might be
+	somehow involved in rotation resistance, and indivudal biases should likely be taken into
+	account.\\
+	In order to overcome such uncertainty, the descibed agent takes a data driven approach: how
+	strong a certain landmark is (and thus how it is likely to be chosen) can be inferred by the
+	number of people that indeed acted upon such landmark, the baseline activation will thus be
+	derived from the frequency of participants that exploited such landmarks at the current phase of
+	the solution.
+
+
+
+
+
 	\chapter{Model description}
     
 	The agent model consists of multiple sub-components and a coordinator which handles their

@@ -7,14 +7,14 @@
 \contentsline {section}{\numberline {2.3}ACT-R}{5}{}%
 \contentsline {chapter}{\numberline {3}Experimental scenario}{6}{}%
 \contentsline {chapter}{\numberline {4}Data Analysis and Hypothesis}{8}{}%
-\contentsline {chapter}{\numberline {5}Model description}{9}{}%
-\contentsline {section}{\numberline {5.1}Experiment window}{10}{}%
-\contentsline {section}{\numberline {5.2}Visual system}{10}{}%
-\contentsline {section}{\numberline {5.3}Coordinator}{12}{}%
-\contentsline {subsection}{\numberline {5.3.1}State representation}{13}{}%
-\contentsline {subsection}{\numberline {5.3.2}Updating actions}{13}{}%
-\contentsline {section}{\numberline {5.4}ACT-R model}{14}{}%
-\contentsline {chapter}{\numberline {6}Results and evaluation}{17}{}%
-\contentsline {chapter}{\numberline {7}Conclusions and future developments}{18}{}%
-\contentsline {chapter}{Bibliography}{19}{}%
-\contentsline {chapter}{Acknowledgements}{20}{}%
+\contentsline {chapter}{\numberline {5}Model description}{11}{}%
+\contentsline {section}{\numberline {5.1}Experiment window}{12}{}%
+\contentsline {section}{\numberline {5.2}Visual system}{12}{}%
+\contentsline {section}{\numberline {5.3}Coordinator}{14}{}%
+\contentsline {subsection}{\numberline {5.3.1}State representation}{15}{}%
+\contentsline {subsection}{\numberline {5.3.2}Updating actions}{15}{}%
+\contentsline {section}{\numberline {5.4}ACT-R model}{16}{}%
+\contentsline {chapter}{\numberline {6}Results and evaluation}{19}{}%
+\contentsline {chapter}{\numberline {7}Conclusions and future developments}{20}{}%
+\contentsline {chapter}{Bibliography}{21}{}%
+\contentsline {chapter}{Acknowledgements}{22}{}%
